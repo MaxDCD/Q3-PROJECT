@@ -1,0 +1,11 @@
+body {
+	background-image: url(https://media.pitchfork.com/photos/643569665cec70ae5fd5e87b/3:2/w_1023,h_682,c_limit/Daniel%20Caesar-%20Never%20Enough.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
