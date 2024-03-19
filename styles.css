@@ -80,6 +80,7 @@ p {
 
 ul.breadcrumb {
   padding: 2px 8px;
+  padding-top: 10px;
   list-style: none;
   background-color: black;
   margin-left: auto;
@@ -132,6 +133,7 @@ a.desc {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .box {
@@ -154,4 +156,94 @@ a.desc {
 
 footer {
   background-color: #FFFF64;
+}
+
+.overlay-container {
+  width: 100%;
+ position: relative;
+}
+
+.imagealbum {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9DB9C5;
+  border-radius: 5px;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.overlay-container:hover .overlay1 {
+  opacity: 0.8;
+}
+
+.overlay-container:hover .overlay2 {
+  opacity: 0.9;
+}
+.overlay-container:hover .overlay3 {
+  opacity: 0.85;
+}
+
+.ALBUMTEXT1 {
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+footer {
+  padding: 1.5px;
+}
+
+.footertext {
+  text-align:center; 
+  color: black;
+  letter-spacing: 2px;
 }
